@@ -1,0 +1,9 @@
+rs_insert_trig_valid_chk                           | rule_set           | INSERT
+rs_update_dt_eff_beg_trig_valid_chk                | rule_set           | UPDATE
+rs_update_dt_eff_end_trig_valid_chk                | rule_set           | UPDATE
+ul_delete_trig_insert_to_ulh                       | user_license       | DELETE
+ul_update_trig_insert_to_ulh                       | user_license       | UPDATE
+users_delete_trig_update_to_userarchive            | users              | DELETE
+users_insert_trig_insert_to_userarchive            | users              | INSERT
+users_update_name_first_trig_update_to_userarchive | users              | UPDATE
+users_update_name_last_trig_update_to_userarchive  | users              | UPDATE
