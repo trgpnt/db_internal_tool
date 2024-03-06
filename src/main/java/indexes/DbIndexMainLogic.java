@@ -4,6 +4,7 @@ package indexes;
 import enum_.LOG_DIRECTION;
 import org.apache.commons.collections4.CollectionUtils;
 import utils.FileUtil;
+import utils.NullabilityUtils;
 import utils.StringUtils;
 import utils.TrieRepository;
 

@@ -1,9 +1,12 @@
 package indexes;
 
 import org.apache.commons.collections4.CollectionUtils;
+import utils.StringUtils;
 
 import java.util.List;
 import java.util.Objects;
+
+import static indexes.DbIndexDataBuilder.CREATE_KEYWORD;
 
 public class DbIndex {
     private String tableName;
